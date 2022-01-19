@@ -1,0 +1,52 @@
+*{
+  margin:0px;
+
+}
+:root{
+  --altura_:95%;
+  --header_ancho:11vh;
+  --linea:transparent;
+  --letras: transparent;
+  --ancho_p:40vw;
+  --alto_p:0vh;
+  --color_header: rgb(145, 124, 122);
+  --color_border_h:rgba(54, 33, 78, 0.719);
+  --color_h_hover_nav:rgb(103, 75, 92);
+  --color_hover_contac: rgba(103, 75, 92, 0.329);
+  --color_footer: rgb(66, 48, 51);
+  --color_border_f:rgba(55, 31, 71, 0.397);
+  --color_welcome_section:rgb(84, 82, 99);
+  --color_projects:rgb(77, 74, 90);
+  --color_border_card:rgb(63, 39, 90);
+  --color_back_card:white;
+  --color_shadow_card_1:rgba(79, 57, 90, 0.486) ;
+  --color_shadow_card_2:rgba(79, 57, 90, 0.384) ;
+  --color_btn_projects:transparent;
+  --color_link_projects:transparent;
+  --color_shadow_btn_p_1:transparent;
+  --color_shadow_btn_p_2:transparent;
+  --color_contac:rgb(71, 76, 99);
+  --color_hover_contac: rgba(103, 75, 92, 0.034);
+  --color_shadow_contac_1:rgba(103, 75, 92, 0.397);
+  --color_shadow_contac_2:rgba(72, 47, 58, 0.411);
+
+}
+.conteiner{
+
+  position:fixed;
+  top:0%;
+  right: 0%;
+  width: 100vw;
+  height: 70vh;
+
+}
+#conteiner-contac{
+  display:flex;
+ justify-content:space-around;
+ position:relative;
+
+
+}
+li{
+  list-style:none ;
+}
