@@ -1,9 +1,10 @@
 export interface BtnC {
   id: number;
   href: string;
-  class:string;
   classA:string;
+  classB:string;
   src:string;
   alt:string;
+  target:string;
 
 }

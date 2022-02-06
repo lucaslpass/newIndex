@@ -1,0 +1,67 @@
+
+header{
+  position:fixed;
+  display: flex;
+  top:0px;
+  height: var(--header_ancho) ;
+  width: 100vw;
+  background-color:var(--color_header);
+  z-index: 3;
+}
+app-login{
+  position: fixed ;
+  z-index:3;
+  top:25%;
+  left:35%;
+}
+
+.div-btns{
+  display: block;
+  width: 50%;
+  margin-top: 1.2%;
+  margin-left: 40%;
+
+}
+
+.div-img{
+display: block;
+margin-left: 0%;
+width: 7vw;
+height: var(--header_ancho) ;
+
+
+}
+.img-ap{
+  width: 7vw;
+  height: var(--header_ancho) ;
+}
+.img-foto{
+  display :block;
+  margin-top: 22.9%;
+  margin-left: 5%;
+  border-radius: 50%;
+  height: 40vh;
+  width: 20vw;
+  background-color: blue;
+  position: relative;
+  z-index: 2;
+}
+.img-baner{
+  display: block;
+  margin-top: -18%;
+  margin-left: 2;
+  border-end-end-radius: 8% 8% ;
+  height: 50vh;
+  width: 95vw;
+  background-color: chartreuse;
+  position: absolute;
+  z-index: 1;
+}
+.dtaP{
+  display: block;
+  margin-left: 9%;
+}
+.description{
+  display: block;
+  margin-left: 55%;
+}

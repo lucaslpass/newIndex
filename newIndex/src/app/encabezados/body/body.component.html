@@ -1,0 +1,60 @@
+
+<section class="s1">
+  <div class="div_" >
+  <header>
+<h2>Educacion</h2>
+  </header>
+
+  <app-card-h></app-card-h>
+</div>
+</section>
+
+<section class="s2">
+  <div class="div_" >
+  <header>
+    <h2>Experiencia</h2>
+  </header>
+  <app-card-h></app-card-h>
+</div>
+</section>
+
+<section class="s3">
+  <div class="div_">
+    <header>
+      <h2>Experiencia</h2>
+    </header>
+  <div class="div-for">
+    <ul class="img-card-for">
+    <li  *ngFor="let proyecto of proyectos" class="li-img">
+
+
+      <app-img-card [class.selected]="proyecto === selectname"  (click)="selectCard(proyecto)" (thisAction)="cardView($event)" [alt]="proyecto.src" [src]="proyecto.src" [title]="proyecto.nameE"></app-img-card>
+
+  </li>
+  </ul>
+</div>
+<div *ngIf="_card && selectname">
+
+
+  <app-card
+  [alt]="selectname.alt"
+  [href]="selectname.href"
+  [exp]="selectname.exp"
+  [nameE]="selectname.nameE" ></app-card>
+
+</div>
+  </div>
+</section>
+
+
+
+<section class="s4" >
+
+<div class="div_" >
+    <header>
+      <h2>Experiencia</h2>
+    </header>
+<app-proyectos></app-proyectos>
+</div>
+
+</section>

@@ -1,0 +1,71 @@
+.conteiner{
+  display: block;
+  text-align: center;
+  width:  100%;
+  height: 100%;
+  background-color: rgb(28, 44, 44);
+  border:rgb(36, 14, 5) solid 0.3em;
+  border-radius:2%;
+
+}
+.class-img{
+  height: var(--alto,100%);
+}
+.title{
+  border: var(--borderT,transparent);
+  color:  var(--colorT,transparent);
+  width: var(--anchoT,0%) ;
+  height: var(--altoT,0%) ;
+  background-color: var(--backcT,transparent);
+  margin-top:-5%;
+  margin-left : 4%;
+}
+.title:hover{
+  background-color: dodgerblue;
+}
+
+.conteiner:hover{
+  position: relative;
+  animation-name:_touch ;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+@keyframes _touch {
+  0%{
+    --alto:90%;
+
+    top: 10%;
+    width:95%;
+    height: 120%;
+    --altoT:5%;
+    --anchoT:35%;
+    --backcT:grey;
+    --borderT:rgb(36, 14, 5) solid 0.3em;
+
+  }
+  50%{
+    --alto:80%;
+    top: 10%;
+    width:90%;
+    height: 130%;
+    --altoT:10%;
+    --anchoT:45%;
+    --backcT:grey;
+    --borderT:rgb(36, 14, 5) solid 0.3em;
+  }
+  100%{
+    --alto:75%;
+    top: 10%;
+    width:90%;
+    height: 140%;
+    --altoT: 15%;
+    --anchoT:90%;
+    --colorT:black;
+    --borderT:rgb(36, 14, 5) solid 0.3em;
+    --backcT:grey;
+
+  }
+
+}

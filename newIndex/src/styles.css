@@ -1,8 +1,10 @@
 *{
-  margin:0px;
+  margin: 0px;
+
 
 }
 :root{
+
   --altura_:95%;
   --header_ancho:11vh;
   --linea:transparent;
@@ -30,22 +32,14 @@
   --color_shadow_contac_1:rgba(103, 75, 92, 0.397);
   --color_shadow_contac_2:rgba(72, 47, 58, 0.411);
 
-}
-.conteiner{
 
-  position:fixed;
-  top:0%;
-  right: 0%;
-  width: 100vw;
-  height: 70vh;
+
+
+
 
 }
-#conteiner-contac{
-  display:flex;
- justify-content:space-around;
- position:relative;
-
-
+a{
+  text-decoration: none
 }
 li{
   list-style:none ;

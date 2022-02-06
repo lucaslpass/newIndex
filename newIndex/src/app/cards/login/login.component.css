@@ -1,0 +1,51 @@
+.div-login{
+  display: flex;
+  justify-content: center;
+  height:55vh ;
+  width: 30vw;
+  border: blue solid 1em;
+  background-color: rgb(80, 255, 240);
+  border-radius: 4%;
+}
+.login{
+  display:inline-flex;
+  flex-direction: column;
+  border-radius: 4%;
+}
+.div-sec{
+  display:flex;
+
+  justify-content:space-evenly;
+  margin-top: 2%;
+  position: relative;
+  top: 10%;
+  width: 30vw ;
+  height:8vh;
+background-color: #00008b;
+}
+.input{
+  display: block;
+  margin:auto;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.774);
+  height: 4vh;
+  width:28vw ;
+  border-radius: 5% ;
+}
+.input:hover{
+  border-color: rgba(0, 0, 0, 0.247);
+}
+.div-login:hover{
+  border-color: #00008b7e ;
+  box-shadow: rgba(0, 0, 139, 0.507) ;
+}
+app-btn-delete-back{
+  position: relative;
+  top: -4%;
+  left: 92%;
+}
+app-btn-sub{
+display: block;
+
+margin:auto;
+}

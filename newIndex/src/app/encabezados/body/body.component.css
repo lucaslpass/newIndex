@@ -1,0 +1,74 @@
+body{
+  margin: 0%;
+  height: 100%;
+}
+header{
+  margin-top: 0%;
+}
+section{
+  width: 100%;
+  height: 100%;
+}
+app-card-h{
+display: block;
+margin-top: 10%;
+margin-left: 4%;
+
+}
+
+.div_{
+  height: 250vh;
+  width: 100%;
+  margin: 0%;
+
+}
+.div-for{
+ margin-top: 10%;
+  width: 90%;
+  margin-left: 2%;
+}
+app-proyectos{
+display: block;
+margin-top: 10%;
+margin-left: 4%;
+}
+.img-card-for{
+  margin-left: 0%;
+  display: grid;
+  width: 100%;
+  height: 100%;
+
+  background-color: bisque;
+  grid-template-columns:  30vw 30vw 30vw;
+  grid-template-rows: 40vh 40vh 40vh;
+  grid-column-gap:2%;
+  grid-row-gap:2%;
+}
+
+.li-img{
+  width: 100%;
+  height: 100%;
+  margin-left: -10%;
+  justify-content: center;
+
+}
+
+
+
+
+
+
+.s1{
+  background-color:var( --color_projects) ;
+}
+.s2{
+  background-color:var( --color_projects)
+}
+.s3{
+  background-color:var( --color_projects)
+}
+.s4{
+  display: block;
+  height: 100%;
+  background-color:var( --color_projects)
+}

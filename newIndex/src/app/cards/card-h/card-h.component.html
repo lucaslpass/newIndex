@@ -1,0 +1,35 @@
+
+
+<ul >
+
+<li  *ngFor="let cardH of cardHs"
+>
+
+  <div class="contenedor">
+    <app-btn-delete-back (editThis)="editAction($event)" [_id]="_all" class="delete-all"  ></app-btn-delete-back>
+<a href="{{cardH.href}}" target="blank">
+
+  <div class="div-img">
+    <app-btn-delete-back (editThis)="editAction($event)" [_id]="_edit" class="edit-img"></app-btn-delete-back>
+    <img src="{{cardH.src}}" alt="{{cardH.alt}}">
+</div>
+<div class="div-text">
+ <div class="div-title">
+<h3>{{cardH.nameE}}</h3>
+<app-btn-delete-back (editThis)="editAction($event)" [_id]="_edit" class="edit-title"></app-btn-delete-back>
+</div>
+<div  class="div-exp">
+  <h5>{{cardH.exp}}</h5>
+  <app-btn-delete-back (editThis)="editAction($event)" [_id]="_edit" class="edit-exp"></app-btn-delete-back>
+</div>
+
+</div>
+
+</a>
+
+</div>
+</li>
+
+
+</ul>
+

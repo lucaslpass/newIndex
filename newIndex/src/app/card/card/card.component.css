@@ -1,0 +1,75 @@
+.contenedor{
+
+  text-align: center;
+  width: 65%;
+  height:43vh;
+  background-color: rgb(28, 44, 44);
+  display:flex ;
+  flex-direction: column;
+  position: fixed;
+  top: 40%;
+ left: 15%;
+  border:rgb(36, 14, 5) solid 0.3em;
+  border-radius:2%;
+
+
+}
+.btn{
+  width:3% ;
+  position: relative;
+  top: -1%;
+  right: -97%;
+
+}
+
+.div-img{
+
+  width:40% ;
+  height:300% ;
+  background-color: chartreuse;
+  top: 0%;
+  left:0% ;
+  position: relative;
+
+}
+
+  .div-text{
+  display: block;
+  outline: var(--outline_);
+  position: relative;
+  background-color: var(--div-textBC);
+  height:80%;
+  width: 50%;
+  top:-90%;
+  left:48%;
+
+
+}
+
+  .div-title{
+
+      outline: var(--outline_);
+      display:var(--div-titleD,block);
+      flex-direction:column;
+      height:100% ;
+      width: 30%;
+      background-color:red;
+      border-right: rgb(24, 23, 24) solid 0.2em;
+      ;
+      border-left: rgb(24, 23, 24) solid 0.2em;
+
+
+  }
+
+  .div-exp{
+    display: block;
+    outline: var(--outline_);
+    position: relative;
+    top:-100%;
+    left:33%;
+    height:100%;
+    width:65%;
+    background-color:  rgb(71, 87, 85);
+
+
+  }

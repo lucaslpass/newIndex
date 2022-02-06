@@ -1,0 +1,75 @@
+
+
+.contenedor{
+ margin-top: 2%;
+ margin-left: 17%;
+ margin-bottom: 0% ;
+border:rgb(37, 36, 35) solid 0.3em;
+display: flex;
+background-color: rgb(65, 69, 70);
+width: 65%;
+height: 33%;
+}
+.div-img{
+top: 0%;
+left: -1300%;
+height: 100% ;
+width: 400%;
+position: relative;
+background-color: rgb(104, 104, 104);
+}
+.div-text{
+position: relative;
+
+height: 80%;
+width: 800%;
+top:-92%;
+left:-850%;
+background-color: rgba(31, 28, 28, 0.644);
+}
+.div-title{
+  display:flex;
+  flex-direction: column;
+  height:100% ;
+  width: 30%;
+  background-color: rgba(0, 0, 0, 0.329);
+
+
+
+}
+.div-exp{
+ position:relative;
+ top:-100%;
+ left:30%;
+ height:100%;
+ width: 70%;
+ background-color: rgb(62, 66, 66);
+
+}
+
+.delete-all{
+
+margin-top: -1%;
+margin-left: 98%;
+
+}
+.edit-img{
+
+  position: relative;
+  top: -2%;
+  right: 3%;
+}
+
+.edit-title{
+
+  position: relative;
+  bottom: -50%;
+  left: -4%;
+}
+.edit-exp{
+    position: relative;
+    bottom: -63%;
+    left: 94%;
+
+}
+

@@ -1,0 +1,18 @@
+.div-btn{
+  width: 24px;
+  height: 26px;
+ border-radius: 50%;
+ background-color:transparent;
+}
+#_all{
+  background-color: brown;
+}
+#edit{
+  background-color: rgb(42, 165, 124);
+}
+#edit:hover{
+  background-color: rgb(97, 165, 42);
+}
+#_all:hover{
+  background-color: rgb(97, 165, 42);
+}

@@ -1,0 +1,11 @@
+.card-img{
+  display: block;
+  width:90%;
+  height:var(--alto,90%)  ;
+  background-color:chartreuse;
+
+  margin-top: 4%;
+  margin-left: 5%;
+}
+
+
