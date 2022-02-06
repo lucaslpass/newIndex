@@ -10,9 +10,9 @@ import { Proyecto } from 'src/app/proyecto';
 })
 export class BodyComponent implements OnInit {
 proyectos=PROYECTO;
-selectname?:Proyecto
+selectName?:Proyecto
 _card= false;
-_proyecto=[]
+
   constructor() {
 
   }
@@ -26,6 +26,7 @@ _proyecto=[]
     )
  }
  selectCard(name:Proyecto){
-  this.selectname= name;
+  this.selectName= name;
+  console.log(this.selectName.nameE)
   }
 }

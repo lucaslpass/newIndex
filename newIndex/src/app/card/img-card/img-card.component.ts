@@ -1,6 +1,6 @@
 import { Component, OnInit,Input, Output,EventEmitter } from '@angular/core';
-import { PROYECTO } from 'src/app/mock-proyectos';
-import { Proyecto } from 'src/app/proyecto';
+
+
 @Component({
   selector: 'app-img-card',
   templateUrl: './img-card.component.html',

@@ -28,19 +28,28 @@
     <li  *ngFor="let proyecto of proyectos" class="li-img">
 
 
-      <app-img-card [class.selected]="proyecto === selectname"  (click)="selectCard(proyecto)" (thisAction)="cardView($event)" [alt]="proyecto.src" [src]="proyecto.src" [title]="proyecto.nameE"></app-img-card>
+      <app-img-card
+       [class.selected]="proyecto === selectName"
+       (click)="selectCard(proyecto)"
+       (thisAction)="cardView($event)"
+       [alt]="proyecto.src"
+       [src]="proyecto.src"
+       [title]="proyecto.nameE"></app-img-card>
 
   </li>
   </ul>
 </div>
-<div *ngIf="_card && selectname">
+<div *ngI="_card && selectName">
 
 
   <app-card
-  [alt]="selectname.alt"
-  [href]="selectname.href"
-  [exp]="selectname.exp"
-  [nameE]="selectname.nameE" ></app-card>
+  (thisNewAction)="cardView($event)"
+  [alt]="selectName?.alt"
+  [href]="selectName?.href"
+  [exp]="selectName?.exp"
+  [nameE]="selectName?.nameE"
+
+  ></app-card>
 
 </div>
   </div>

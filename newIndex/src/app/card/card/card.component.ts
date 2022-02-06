@@ -1,5 +1,5 @@
-import { Component, OnInit, Input, Output } from '@angular/core';
-import { EventEmitter } from 'stream';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+
 
 @Component({
   selector: 'app-card',
@@ -7,17 +7,22 @@ import { EventEmitter } from 'stream';
   styleUrls: ['./card.component.css']
 })
 export class CardComponent implements OnInit {
-  _actionF=false;
+
+  _close=false;
   @Input()href="";
   @Input()src="";
   @Input()alt="";
   @Input()nameE="";
   @Input()exp="";
-  @Output close= new EventEmitter<boolean>();
+  @Output() thisNewAction =new EventEmitter<boolean>()
+
   constructor() { }
 
   ngOnInit(): void {
   }
+ closeCard( _close:boolean){
+   this.thisNewAction.emit(_close )
 
+ }
 }
 
