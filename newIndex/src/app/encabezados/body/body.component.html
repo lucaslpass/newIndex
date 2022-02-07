@@ -39,15 +39,15 @@
   </li>
   </ul>
 </div>
-<div *ngI="_card && selectName">
+<div *ngIf="_card && selectName">
 
 
   <app-card
   (thisNewAction)="cardView($event)"
-  [alt]="selectName?.alt"
-  [href]="selectName?.href"
-  [exp]="selectName?.exp"
-  [nameE]="selectName?.nameE"
+  [alt]="selectName.alt"
+  [href]="selectName.href"
+  [exp]="selectName.exp"
+  [nameE]="selectName.nameE"
 
   ></app-card>
 

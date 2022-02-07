@@ -9,9 +9,10 @@ import { Proyecto } from 'src/app/proyecto';
   styleUrls: ['./body.component.css']
 })
 export class BodyComponent implements OnInit {
-proyectos=PROYECTO;
-selectName?:Proyecto
-_card= false;
+
+  proyectos=PROYECTO;
+  selectName?:Proyecto
+  _card= false;
 
   constructor() {
 
