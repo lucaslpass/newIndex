@@ -5,7 +5,7 @@
 <h2>Educacion</h2>
   </header>
 
-  <app-card-h></app-card-h>
+
 </div>
 </section>
 
@@ -14,7 +14,7 @@
   <header>
     <h2>Experiencia</h2>
   </header>
-  <app-card-h></app-card-h>
+
 </div>
 </section>
 
@@ -23,7 +23,10 @@
     <header>
       <h2>Experiencia</h2>
     </header>
-  <div class="div-for">
+    <div class="div-card-edit">
+      <app-card-edit></app-card-edit>
+    </div>
+  <div *ngIf="_login" class="div-for">
     <ul class="img-card-for">
     <li  *ngFor="let proyecto of proyectos" class="li-img">
 

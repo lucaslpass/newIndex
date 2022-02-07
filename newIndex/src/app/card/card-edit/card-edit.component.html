@@ -1,1 +1,38 @@
-<p>card-edit works!</p>
+
+
+      <div class="contenedor1">
+
+        <div class="btn" >
+          <app-btn-delete-back class="delete-all1" (editThis)="editAction($event)" [_id]="_all"></app-btn-delete-back>
+
+        </div>
+
+
+              <div class="div-img1">
+                <app-btn-delete-back class="edit-img1" (editThis)="editAction($event)" [_id]="_edit" ></app-btn-delete-back>
+
+
+                <img src="{{src}}" alt="{{alt}}">
+            </div>
+
+             <div class="div-title1">
+          <div class="div-titlet">
+
+            <h3>{{nameE}}</h3>
+            </div>
+            <app-btn-delete-back class="edit-title1" (editThis)="editAction($event)" [_id]="_edit" ></app-btn-delete-back>
+
+
+          </div>
+            <div  class="div-exp1">
+              <div class="div-expt">
+              <h5>{{exp}}</h5>
+            </div>
+
+            <app-btn-delete-back class="edit-exp1" (editThis)="editAction($event)" [_id]="_edit" ></app-btn-delete-back>
+
+            </div>
+
+            </div>
+
+

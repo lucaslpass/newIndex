@@ -1,0 +1,116 @@
+.contenedor1{
+  display: block;
+  text-align: center;
+  width: 80%;
+  height:120%;
+  background-color: rgb(28, 44, 44);
+
+  flex-direction: column;
+
+  margin-top: 5%;
+  margin-left: 10%;
+  border:rgb(36, 14, 5) solid 0.3em;
+  border-radius:2%;
+
+
+}
+.btn{
+  width:3% ;
+  position: relative;
+  top: -1%;
+  right: -97%;
+
+}
+
+
+.div-img1{
+
+  width:40% ;
+  height:80% ;
+  background-color: chartreuse;
+  top: 0%;
+  left:1.5% ;
+  position: relative;
+
+}
+
+  .div-text1{
+
+
+  position: relative;
+
+  height:50%;
+  width: 50%;
+  top:0%;
+  left:8%;
+
+
+}
+
+  .div-title1{
+
+
+
+
+      height:80% ;
+      width: 15%;
+      position: relative;
+      top:-80%;
+      left: 42%;
+      background-color:red;
+      border-right: rgb(24, 23, 24) solid 0.2em;
+      ;
+      border-left: rgb(24, 23, 24) solid 0.2em;
+
+
+  }
+
+  .div-exp1{
+
+
+    position:relative;
+    top:-160%;
+    left:58%;
+    width: 40%;
+    height: 90%;
+    background-color: rgb(71, 87, 85);
+
+
+  }
+
+
+   .delete-all1{
+   width:3% ;
+   top: 0%;
+   left: -2%;
+
+    }
+
+   .edit-img1{
+     display: block;
+        width: 24px;
+        height: 26px;
+        position:relative;
+        top:0%;
+        right:3%
+
+      }
+
+
+     .edit-title1{
+      display: block;
+      width: 24px;
+      height: 26px;
+      position:relative;;
+      top: 92%;
+      left:80%;
+      }
+
+      .edit-exp1{
+        display: block;
+        width: 24px;
+        height: 26px;
+        position:relative;;
+        top: 94%;
+        left:95%;
+        }

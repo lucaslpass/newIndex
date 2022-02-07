@@ -13,7 +13,7 @@ export class BodyComponent implements OnInit {
   proyectos=PROYECTO;
   selectName?:Proyecto
   _card= false;
-
+  _login=false;
   constructor() {
 
   }
